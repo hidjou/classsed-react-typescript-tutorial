@@ -59,7 +59,7 @@ export class PokemonSearch extends Component<User, SearchState> {
         <div>
           <img src={pokemon.imageUrl} alt="pokemon" className="pokemon-image" />
           <p>
-            {name} has {pokemon.numberOfAbilites} abilities and{' '}
+            {pokemon.name} has {pokemon.numberOfAbilites} abilities and{' '}
             {pokemon.baseExperience} base experience points
           </p>
         </div>
